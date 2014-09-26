@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.benzboy.com/api/v1/cars/active/68
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Fri, 26 Sep 2014 04:47:39 GMT
+      Server:
+      - Apache
+      Accept-Ranges:
+      - bytes
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '1108'
+      Content-Type:
+      - text/html
+    body:
+      encoding: UTF-8
+      string: "<!-- SHTML Wrapper - 404 Not Found -->\n<!DOCTYPE html>\n<html>\n  <head>\n
+        \   <title>404 Not Found</title>\n    <meta name=\"revisit-after\" content=\"10\">\n
+        \   <meta name=\"ROBOTS\" content=\"NOINDEX, NOFOLLOW\"> \n    <script type=\"text/javascript\"
+        src=\"http://cdn.dsultra.com/js/registrar.js\"></script>\n        <link href=\"http://cf.bluehost-cdn.com/media/shared/general/homelayout.css\"
+        rel=\"stylesheet\" type=\"text/css\">\n    <link rel=\"stylesheet\" href=\"http://cf.bluehost-cdn.com/media/shared/general/_bh/homestyle.css\"
+        type=\"text/css\">\n    \n    <style>\n      body{\n        margin:25px;\n
+        \     }\n      .t1{\n        color:#000000;\n        font-family: Arial, Helvetica,
+        sans-serif;\n        font-size:14px;\n      }\n      .t2{\n        color:#3d3d3d;\n
+        \       font-family: Arial, Helvetica, sans-serif;\n        font-size:10px;\n
+        \       white-space:nowrap;\n      }\n      .icontent {\n        width: 1025px;\n
+        \       height: 700px;\n        border: none;\n        margin-top: 4px;\n
+        \       margin-bottom: 4px;\n      }\n      h1 {\n        font-size: 18px;\n
+        \       display: block;\n      }\n      h2 {\n        font-size: 16px;\n      }\n
+        \     ul {\n        margin-left: 34%\n      }\n    </style>\n</head>\n<body
+        bgcolor=white>\n\n<div style=\"border: solid 2px;border-color: #033B73;padding:
+        0px;width: 1065px;margin: 0 auto;\">\n  <table cellpadding=\"0\" cellspacing=\"0\"
+        border=\"0\" width=\"1065\">\n    <tr>\n      <td colspan=\"2\" class=\"topheading\">\n
+        \       <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr>\n          <td
+        style=\"padding-left:25px;width:205px;height:90px\"><a href=\"http://www.bluehost.com/\"><img
+        src=\"http://cf.bluehost-cdn.com/media/shared/general/_bh/logo.gif\" width=\"178\"
+        height=\"39\" alt=\"bluehost\" border=\"0\"></a></td>\n          <td style=\"text-align:left\">Affordable,
+        Reliable<br />Web Hosting Solutions.</td>\n        </tr></table>\n      </td>\n
+        \   </tr>\n  </table>\n    <div style=\"text-align: center\">\n      <h1>404
+        Error File Not Found</h1>\n      <h2> The page you are looking for might have
+        been removed, <br />had its name changed, or is temporarily unavailable.</h2>\n
+        \           <iframe frameborder=\"0\" scrolling=\"no\" src=\"about:blank\"
+        id='ad_frame' class=\"icontent\"></iframe>\n      <script type=\"text/javascript\">registrar_frameset({a_id:
+        143209, drid: \"as-drid-2578124767373827\", frame: \"ad_frame\"});</script>\n
+        \                 <p><a href=\"http://www.bluehost.com\">Web Hosting</a> provided
+        by Bluehost.com</p>\n            </div>\n  </div>\n</body>\n</html>\n\n"
+    http_version: 
+  recorded_at: Fri, 26 Sep 2014 04:49:49 GMT
+recorded_with: VCR 2.9.3
