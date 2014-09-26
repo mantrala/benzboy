@@ -1,6 +1,5 @@
 # Benzboy
 
-TODO: Write a gem description
 A tutorial to show how to wrap an external api in to a gem.
 
 ## Installation
